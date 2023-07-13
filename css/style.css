@@ -1,17 +1,30 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-ul {
-  list-style: none;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: 800;
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  margin-bottom: 20px 0;
 }
 
 img {
   height: auto;
   width: 500px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 5px;
 }
